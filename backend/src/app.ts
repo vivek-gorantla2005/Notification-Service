@@ -1,8 +1,8 @@
 import express from 'express';
 import { connectKafka } from '../lib/connectKafka';
 import cors from 'cors';
-import { Router } from 'express';
 import { SocketManager } from '../controllers/socketControllers';
+import router from '../api/routes'
 
 const app = express();
 
@@ -18,7 +18,6 @@ await connectKafka().catch(err=>{
     process.exit(1);
 })
 
-const router = Router();
 app.use('/api', router);
 
 app.get('/', (req, res) => {

@@ -1,3 +1,4 @@
+import { Notification } from "./notification_structure";
 export abstract class INotification{
-    abstract getContent();
+    abstract send(notification: Notification): Promise<void>;
 };

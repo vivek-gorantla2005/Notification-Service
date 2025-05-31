@@ -1,0 +1,1 @@
+{"id":"123e4567-e89b-12d3-a456-426614174000","userId":"user_002","eventType":"order_shipped","message":{"title":"Order Update","body":"Your order #456 has been shipped!","data":{"orderId":456,"trackingUrl":"https://track.me/456"}},"channels":["WEBSOCKET","EMAIL"],"timestamp":1682961370000,"metadata":{"priority":"high","tenant":"tenant_abc"}}

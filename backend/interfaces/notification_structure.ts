@@ -21,7 +21,8 @@ export interface Notification {
 
 
 //example
-// const notif: Notification = {
+// const notif: Notification = 
+// {
 //   id: "123e4567-e89b-12d3-a456-426614174000",
 //   userId: "user_001",
 //   eventType: "order_shipped",
